@@ -76,6 +76,7 @@ stages:
       - modules/998-vanilla-cleanup.yml
       - modules/999-pkg-cleanup.yml
       - modules/999-clear-first-setup-steps-unit.yml
+      - modules/halmak-layout.yml
 
   - name: firstsetup-default-session
     type: shell
