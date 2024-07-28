@@ -6,7 +6,7 @@ commands:
 - cp evdev.xml /usr/share/X11/xkb/rules/
 source:
   type: git
-  url: https://github.com/mateowoetam/halmaklinuxsupport.git
+  url: https://github.com/mateowoetam/halmaklinuxsupport
   tag: v1.3
   paths:
   - evdev.xml
