@@ -1,9 +1,8 @@
 name: halmak-layout
 type: shell
 commands:
-- cp zz /usr/share/X11/xkb/symbols/
-- cp /usr/share/X11/xkb/rules/evdev.xml //usr/share/X11/xkb/rules/evdev.xml.bak
-- cp evdev.xml /usr/share/X11/xkb/rules/
+- chmod -x halmak-orchid.sh
+- sh halmak-orchid.sh
 source:
   type: git
   url: https://github.com/mateowoetam/halmaklinuxsupport
