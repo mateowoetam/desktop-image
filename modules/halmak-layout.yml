@@ -1,13 +1,7 @@
 name: halmak-layout
 type: shell
 commands:
-- chmod -x halmak-orchid.sh
-- sh halmak-orchid.sh
-source:
-  type: git
-  url: https://github.com/mateowoetam/halmaklinuxsupport
-  tag: v1.3
-  paths:
-  - evdev.xml
-  - zz
-  - halmak-orchid.sh
+- "git clone  git clone https://github.com/mateowoetam/halmaklinuxsupport.git"
+- "cd ./halmaklinuxsupport"
+- "chmod -x halmak-orchid.sh"
+- "sh halmak-orchid.sh"
